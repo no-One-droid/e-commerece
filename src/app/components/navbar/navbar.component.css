@@ -1,0 +1,28 @@
+.Anoucement_bar{
+    padding: 12px 15px;
+    background-color: #0b3e64;
+    color: #ffffff;
+    text-align: center;
+}
+.Anoucement_content {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-family: "montserrat" , sans-serif;
+  font-size: 11px;
+  font-style: normal;
+}
+.Anoucement_content p{
+    font-family: "montserrat" , sans-serif;
+    font-size: 5px;
+    font-style: normal;
+}
+div{
+    display: block;
+    unicode-bidi: inherit;
+}
+@media screen and (min-width: 641px) {
+    .AnnouncementBar {
+        font-size: calc(var(--base-text-font-size) -(var(--default-text-font-size) - 11px));
+    }
+}
